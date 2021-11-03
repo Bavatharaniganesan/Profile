@@ -1,0 +1,110 @@
+.grid-container {
+    display: grid;
+    grid-gap:20px;
+    align-content: left;
+    grid-template-columns: auto auto auto auto;
+    background-color: #63954f;
+    padding: 10px;
+  }
+  .ex1{
+      padding-left: 110px;
+  }
+  .ex2{
+      margin-top:15px;
+  } 
+.ex2 h{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ex12{
+    font-size: 15px;
+}
+.ex3{
+    margin-left: 10px;
+    margin-top:15px;
+}
+.ex3 h{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ex13{
+    width:300px;
+    margin-top:30px;
+    border-radius: 5px;
+}
+.ex11{
+   margin-top: 10px;
+   height:100px;
+}
+.ex1 h{
+    font-size: 25px;
+    font-weight: bold;
+}
+.ex4{
+    margin-left: 10px;
+    margin-top:15px;
+}
+.ex4 h{
+    font-size: 30px;
+}
+.ex14{
+    width:100px;
+    height:80px;
+    cursor:pointer;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.ex15{
+    font-size: 45px;
+    font-weight: bold;
+    font-family:fantasy;
+}
+.ex5{
+    padding-top: 25px;
+}
+.grid-container2 h{
+    font-size: 25px;
+    font-weight: bold;
+}
+.ex6{
+    display: flex;
+}
+.grid-container3 h{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.grid-head{
+    border:1px solid rgb(87, 85, 85);
+    display:grid;
+    grid-template-rows:220px ;
+    grid-template-columns:1fr 2fr;
+    grid-column-gap:20px;
+
+}
+.grid-top-clm{
+    border:1px solid rgb(92, 87, 87);
+    background-color: rgb(157, 190, 252);
+}
+.grid-container2{
+    border:1px solid rgb(87, 85, 85);
+    background-color: rgb(247, 240, 238);
+}
+.grid-container3{
+    border:1px solid rgb(248, 242, 242);
+ 
+}
+.grid-container4{
+    border:1px solid rgb(87, 82, 82);
+    background-color: rgb(209, 196, 178);
+}
+.grid-container5{
+    border:1px solid rgb(87, 84, 84);
+    background-color: rgb(171, 226, 228);
+}
+
+.grid-container6{
+    border:1px solid rgb(93, 92, 92);
+    background-color: rgb(221, 233, 202);
+  
+}
